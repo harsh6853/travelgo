@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelGo</title>
+
+  <link rel="stylesheet" href="travelgo.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- =========================
+     SIDEBAR TOGGLE
+========================= -->
+<input type="checkbox" id="check">
+
+<!-- OPEN BUTTON -->
+<div class="btn_one">
+  <label for="check">
+    <i class="fa-solid fa-bars"></i>
+  </label>
+</div>
+
+<!-- =========================
+     SIDEBAR
+========================= -->
+<div class="sidebar">
+
+  <div class="logo">
+    <a href="#">TravelGo 🌍</a>
+  </div>
+
+  <!-- CLOSE BUTTON -->
+  <div class="close_btn">
+    <label for="check">
+      <i class="fa-solid fa-xmark"></i>
+    </label>
+  </div>
+
+  <div class="menu">
+    <ul>
+
+      <li>
+        <i class="fa-solid fa-house"></i>
+        <a href="#">Home</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-location-dot"></i>
+        <a href="#">Places</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-ticket"></i>
+        <a href="#">Bus Tickets</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-hotel"></i>
+        <a href="#">Hotels</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-map"></i>
+        <a href="#">Travel Guide</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-percent"></i>
+        <a href="#">Offers</a>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-phone"></i>
+        <a href="#">Contact</a>
+      </li>
+
+    </ul>
+  </div>
+
+</div>
+
+<!-- =========================
+     NAVBAR
+========================= -->
+<nav class="navbar">
+
+  <div class="logo">TravelGo</div>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Places</a></li>
+    <li><a href="#">Bus Tickets</a></li>
+    <li><a href="#">Hotels</a></li>
+  </ul>
+
+</nav>
+
+<!-- =========================
+     HERO SECTION
+========================= -->
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1>Discover Amazing Places</h1>
+
+    <p>Find destinations, bus tickets, and nearby hotels easily.</p>
+
+    <button>Explore Now</button>
+
+    <!-- SEARCH BAR (UNDER BUTTON) -->
+    <div class="search-bar">
+
+      <form action="https://www.google.com/search" method="GET">
+
+        <input 
+          type="text" 
+          name="q" 
+          placeholder="Search your dream places..."
+        >
+
+        <button type="submit">Search</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+     PLACES SECTION
+========================= -->
+<section class="places">
+
+  <h2>Popular Destinations</h2>
+
+  <div class="place-container">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da">
+      <h3>Manali</h3>
+      <p>Beautiful mountains and snowfall.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1">
+      <h3>Goa</h3>
+      <p>Enjoy beaches and nightlife.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+      <h3>Jaipur</h3>
+      <p>Explore forts and royal culture.</p>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
